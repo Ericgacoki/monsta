@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Monsta</string>
+    <string name="splash_screen_image">splash screen image</string>
 </resources>
