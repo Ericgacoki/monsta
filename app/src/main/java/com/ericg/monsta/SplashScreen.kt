@@ -10,7 +10,8 @@ class SplashScreen : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        supportActionBar?.hide() // hide
+        supportActionBar?.hide() // hide the title bar
+        
         _binding = SplashScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
